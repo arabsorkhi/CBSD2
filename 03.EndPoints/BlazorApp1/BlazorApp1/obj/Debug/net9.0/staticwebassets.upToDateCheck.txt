@@ -1,0 +1,7 @@
+D:\MyWork\CBSD2\03.EndPoints\BlazorApp1\BlazorApp1\wwwroot\bootstrap\bootstrap.min.css
+D:\MyWork\CBSD2\03.EndPoints\BlazorApp1\BlazorApp1\wwwroot\bootstrap\bootstrap.min.css.map
+D:\MyWork\CBSD2\03.EndPoints\BlazorApp1\BlazorApp1\wwwroot\app.css
+wwwroot\app.css
+wwwroot\bootstrap\bootstrap.min.css
+wwwroot\bootstrap\bootstrap.min.css.map
+wwwroot\favicon.png

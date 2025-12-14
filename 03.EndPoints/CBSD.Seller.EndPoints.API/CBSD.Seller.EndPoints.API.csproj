@@ -1,10 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <GenerateMSbuildeditorConfigFile>$(IntermediateOutputPath)\$(MSBuildProjectName).GeneratedMSBuildEditorConfig.editorconfig</GenerateMSbuildeditorConfigFile>
+    <RazorLangVersion>Latest</RazorLangVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -20,6 +21,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\01.Core\CBSD.Core.ApplicationServices\CBSD.Core.ApplicationServices.csproj" />
     <ProjectReference Include="..\..\02.Infra\CBSD.Infra.Data.EventSourcing\CBSD.Infra.Data.EventSourcing.csproj" />
+    <ProjectReference Include="..\..\02.Infra\CBSD.Seller.Infra.Data.ServiceBusMessaging\ServiceBusMessaging\CBSD.Infra.Data.ServiceBusMessaging.csproj" />
     <ProjectReference Include="..\..\02.Infra\CBSD.Seller.Infra.Data.Sql\CBSD.Infra.Data.Sql.csproj" />
   </ItemGroup>
 

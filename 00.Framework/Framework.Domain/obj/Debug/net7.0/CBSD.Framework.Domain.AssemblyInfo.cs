@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CBSD.Framework.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d357dc82218cadb0f49df770567588281896bf8b")]
 [assembly: System.Reflection.AssemblyProductAttribute("CBSD.Framework.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CBSD.Framework.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

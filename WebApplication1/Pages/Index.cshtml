@@ -1,0 +1,56 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<div>
+    <p>
+        1 Razor markup 1 is @("<a href=\"https://google.com\">Click me</a>")
+    </p>
+    <p>
+        2 Razor Markup @(Html.Raw(" <a href=\"https://google.com\">Click me</a>"))
+    </p>
+    <a href="https://google.com">Click me</a>
+</div>
+
+<div>
+    <p> @{
+            var a = 2;
+            var b = 3;
+            var c = a + b;
+        }
+    </p>
+    <p>@c</p>
+</div>
+<div>
+    @{
+        if (4 % 2 == 0)
+        {
+            <h1>even</h1>
+        } 
+    }
+</div>
+<div>
+  <ul> @for(var i =0; i<5; i++)
+    {
+        <li>@i</li>
+    }
+    </ul>
+</div>
+<div>
+    <h4>
+        TODO
+    </h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayName(null)
+        </dt>
+
+    </dl>
+</div>

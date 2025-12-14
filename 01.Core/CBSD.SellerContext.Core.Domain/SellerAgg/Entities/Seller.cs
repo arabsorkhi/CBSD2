@@ -29,7 +29,7 @@ namespace CBSD.Seller.Core.Domain.SellerAgg.Entities
         {
             Products = new List<Product>();
 
-            HandleEvent(new SellerCreated { Id = id, Address = address.FullAddress, Name = sellerName.Value });
+            HandleEvent(new SellerCreatedEvent { Id = id, Address = address.FullAddress, Name = sellerName.Value });
         }
 
         //query
@@ -39,18 +39,18 @@ namespace CBSD.Seller.Core.Domain.SellerAgg.Entities
         public void SetPrice(Price price, Guid guid)
         {
 
-            HandleEvent(new SellerPriceSet { Id = guid, Price = price.Value });
+            HandleEvent(new SellerPriceSetEvent { Id = guid, Price = price.Value });
         }
 
         public void SetProduct(Guid productId)
         {
-            HandleEvent(new SellerProductSet { ProductId = productId });
+            HandleEvent(new SellerProductSetEvent { ProductId = productId });
         }
 
         public void SendReceipt(Guid id)
         {
 
-            HandleEvent(new SellerSentReceipt { id = id });
+            HandleEvent(new SellerSentReceiptEvent { id = id });
         }
 
         #region product
@@ -58,10 +58,10 @@ namespace CBSD.Seller.Core.Domain.SellerAgg.Entities
         public void AddProduct()
         {
             //agg create entity instance
-            var newProduct = new Product(HandleEvent);
+            var newProduct = new Product();
 
             //agg  create and publish event
-            newProduct.HandleEvent(new ProductAdded
+            newProduct.HandleEvent(new ProductAddedevent
             {
                 Description = newProduct.Description,
                 Id = newProduct.Id,
@@ -82,25 +82,25 @@ namespace CBSD.Seller.Core.Domain.SellerAgg.Entities
         {
             switch (@event)
             {
-                case SellerCreated e:
+                case SellerCreatedEvent e:
                     Id = e.Id;
                     Name = NameVO.Create(e.Name);
                     Status = SellerStatus.New;
                     break;
-                case SellerPriceSet e:
+                case SellerPriceSetEvent e:
                     Price = new Price(Rial.FromLong(e.Price));
                     break;
-                case SellerProductSet e:
+                case SellerProductSetEvent e:
                     Status = SellerStatus.RequestforSelling;
 
                     break;
-                case SellerSentReceipt e:
+                case SellerSentReceiptEvent e:
                     Status = SellerStatus.Sold;
                     break;
-                case ProductAdded e:
+                case ProductAddedevent e:
                     Id = e.Id;
                     break;
-                case ProductPictureAdded e:
+                case ProductPictureAddedEvent e:
                     Status = SellerStatus.Edit;
                     break;
                 default:

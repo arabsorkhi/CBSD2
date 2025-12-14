@@ -7,33 +7,38 @@ using System.Collections.Generic;
 
 namespace CBSD.Seller.Core.Domain.SellerAgg.Entities
 {
-    public class Product : BaseEntity<Guid>
+    public class Product : BaseEntity<Guid> //AggregateRoot<VehicleId>
+                                            
     {
         #region Fields
-        public ProductId Id { get; set; }
-        public ProductName Name { get; set; }
-        public string Description { get; set; }
-        public string Title { get; set; }
+        public ProductId Id { get; init; }
+        public ProductName Name { get; init; }
+        public string Description { get; init; }
+        public string Title { get; init; }
         public List<Picture> Pictures { get; private set; }
 
         public int Order { get; private set; }
         #endregion
-        public Product()
-        {
-
+        public Product( )
+        { 
         }
         //double dispatch
         //applier change state by own and notif Root to validate
-        public Product(Action<IEvent> applier) : base(applier)
+        public Product(Action<IEvent> applier, ProductId id, ProductName name, string description, string title, List<Picture> pictures) : base(applier)
         {
+            Id = id;
+            Name = name;
+            Description = description;
+            Title = title;
+            Pictures = pictures;
         }
 
-        #region Methods
+        #region Methods Domain behaviors
 
         public void AddPicture(PictureUrl pictureUrl, PictureSize pictureSize)
         {
             var newPic = new Picture(HandleEvent);
-            newPic.HandleEvent(new ProductPictureAdded
+            newPic.HandleEvent(new ProductPictureAddedEvent
             {
                 Id = Id,
                 PictureUrl = pictureUrl,
@@ -52,7 +57,7 @@ namespace CBSD.Seller.Core.Domain.SellerAgg.Entities
         {
             switch (@event)
             {
-                case ProductPictureAdded e:
+                case ProductPictureAddedEvent e:
                     //    Id =new ProductId(e.Id);
                     //     Pictures = PictureUrl.FromString(e.PictureUrl);
                     //    Size = new PictureSize(e.Height, e.Width);

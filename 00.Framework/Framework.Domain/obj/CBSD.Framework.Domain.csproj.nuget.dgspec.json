@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MyWork\\CBSD\\00.Framework\\Framework.Domain\\CBSD.Framework.Domain.csproj": {}
+    "D:\\MyWork\\CBSD2\\00.Framework\\Framework.Domain\\CBSD.Framework.Domain.csproj": {}
   },
   "projects": {
-    "D:\\MyWork\\CBSD\\00.Framework\\Framework.Domain\\CBSD.Framework.Domain.csproj": {
+    "D:\\MyWork\\CBSD2\\00.Framework\\Framework.Domain\\CBSD.Framework.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyWork\\CBSD\\00.Framework\\Framework.Domain\\CBSD.Framework.Domain.csproj",
+        "projectUniqueName": "D:\\MyWork\\CBSD2\\00.Framework\\Framework.Domain\\CBSD.Framework.Domain.csproj",
         "projectName": "CBSD.Framework.Domain",
-        "projectPath": "D:\\MyWork\\CBSD\\00.Framework\\Framework.Domain\\CBSD.Framework.Domain.csproj",
+        "projectPath": "D:\\MyWork\\CBSD2\\00.Framework\\Framework.Domain\\CBSD.Framework.Domain.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\MyWork\\CBSD\\00.Framework\\Framework.Domain\\obj\\",
+        "outputPath": "D:\\MyWork\\CBSD2\\00.Framework\\Framework.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +26,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.zeero.ir/repository/zeero-nuget/index.json": {}
         },
         "frameworks": {
           "net7.0": {
@@ -34,7 +40,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net7.0": {
@@ -55,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308\\RuntimeIdentifierGraph.json"
         }
       }
     }

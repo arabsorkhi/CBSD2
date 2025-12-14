@@ -1,0 +1,13 @@
+D:\MyWork\CBSD2\CBSD.Seller.ServiceDefaults\bin\Debug\net8.0\CBSD.Seller.ServiceDefaults.deps.json
+D:\MyWork\CBSD2\CBSD.Seller.ServiceDefaults\bin\Debug\net8.0\CBSD.Seller.ServiceDefaults.dll
+D:\MyWork\CBSD2\CBSD.Seller.ServiceDefaults\bin\Debug\net8.0\CBSD.Seller.ServiceDefaults.pdb
+D:\MyWork\CBSD2\CBSD.Seller.ServiceDefaults\obj\Debug\net8.0\CBSD.Seller.ServiceDefaults.csproj.AssemblyReference.cache
+D:\MyWork\CBSD2\CBSD.Seller.ServiceDefaults\obj\Debug\net8.0\CBSD.Seller.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyWork\CBSD2\CBSD.Seller.ServiceDefaults\obj\Debug\net8.0\CBSD.Seller.ServiceDefaults.AssemblyInfoInputs.cache
+D:\MyWork\CBSD2\CBSD.Seller.ServiceDefaults\obj\Debug\net8.0\CBSD.Seller.ServiceDefaults.AssemblyInfo.cs
+D:\MyWork\CBSD2\CBSD.Seller.ServiceDefaults\obj\Debug\net8.0\CBSD.Seller.ServiceDefaults.csproj.CoreCompileInputs.cache
+D:\MyWork\CBSD2\CBSD.Seller.ServiceDefaults\obj\Debug\net8.0\CBSD.Seller.ServiceDefaults.sourcelink.json
+D:\MyWork\CBSD2\CBSD.Seller.ServiceDefaults\obj\Debug\net8.0\CBSD.Seller.ServiceDefaults.dll
+D:\MyWork\CBSD2\CBSD.Seller.ServiceDefaults\obj\Debug\net8.0\refint\CBSD.Seller.ServiceDefaults.dll
+D:\MyWork\CBSD2\CBSD.Seller.ServiceDefaults\obj\Debug\net8.0\CBSD.Seller.ServiceDefaults.pdb
+D:\MyWork\CBSD2\CBSD.Seller.ServiceDefaults\obj\Debug\net8.0\ref\CBSD.Seller.ServiceDefaults.dll

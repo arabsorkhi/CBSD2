@@ -29,7 +29,7 @@ namespace CBSD.Seller.Core.Domain.SellerAgg.Entities
         {
             switch (@event)
             {
-                case ProductPictureAdded e:
+                case ProductPictureAddedEvent e:
                     Id = e.Id;
                     Location = PictureUrl.FromString(e.PictureUrl);
                     Size = new PictureSize(e.Height, e.Width);

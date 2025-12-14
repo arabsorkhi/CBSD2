@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MyWork\\CBSD\\xunitTest\\xunitTest.csproj": {}
+    "D:\\MyWork\\CBSD2\\xunitTest\\xunitTest.csproj": {}
   },
   "projects": {
-    "D:\\MyWork\\CBSD\\00.Framework\\Framework.Domain\\CBSD.Framework.Domain.csproj": {
+    "D:\\MyWork\\CBSD2\\00.Framework\\Framework.Domain\\CBSD.Framework.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyWork\\CBSD\\00.Framework\\Framework.Domain\\CBSD.Framework.Domain.csproj",
+        "projectUniqueName": "D:\\MyWork\\CBSD2\\00.Framework\\Framework.Domain\\CBSD.Framework.Domain.csproj",
         "projectName": "CBSD.Framework.Domain",
-        "projectPath": "D:\\MyWork\\CBSD\\00.Framework\\Framework.Domain\\CBSD.Framework.Domain.csproj",
+        "projectPath": "D:\\MyWork\\CBSD2\\00.Framework\\Framework.Domain\\CBSD.Framework.Domain.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\MyWork\\CBSD\\00.Framework\\Framework.Domain\\obj\\",
+        "outputPath": "D:\\MyWork\\CBSD2\\00.Framework\\Framework.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +26,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.zeero.ir/repository/zeero-nuget/index.json": {}
         },
         "frameworks": {
           "net7.0": {
@@ -34,7 +40,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net7.0": {
@@ -55,21 +67,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\MyWork\\CBSD\\00.Framework\\Framwork.Tools\\CBSD.Framwork.Tools.csproj": {
+    "D:\\MyWork\\CBSD2\\00.Framework\\Framwork.Tools\\CBSD.Framwork.Tools.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyWork\\CBSD\\00.Framework\\Framwork.Tools\\CBSD.Framwork.Tools.csproj",
+        "projectUniqueName": "D:\\MyWork\\CBSD2\\00.Framework\\Framwork.Tools\\CBSD.Framwork.Tools.csproj",
         "projectName": "CBSD.Framwork.Tools",
-        "projectPath": "D:\\MyWork\\CBSD\\00.Framework\\Framwork.Tools\\CBSD.Framwork.Tools.csproj",
+        "projectPath": "D:\\MyWork\\CBSD2\\00.Framework\\Framwork.Tools\\CBSD.Framwork.Tools.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\MyWork\\CBSD\\00.Framework\\Framwork.Tools\\obj\\",
+        "outputPath": "D:\\MyWork\\CBSD2\\00.Framework\\Framwork.Tools\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -77,7 +93,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.zeero.ir/repository/zeero-nuget/index.json": {}
         },
         "frameworks": {
           "net7.0": {
@@ -89,7 +107,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net7.0": {
@@ -110,21 +134,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\MyWork\\CBSD\\01.Core\\CBSD.Core.ApplicationServices\\CBSD.Core.ApplicationServices.csproj": {
+    "D:\\MyWork\\CBSD2\\01.Core\\CBSD.Core.ApplicationServices\\CBSD.Core.ApplicationServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyWork\\CBSD\\01.Core\\CBSD.Core.ApplicationServices\\CBSD.Core.ApplicationServices.csproj",
+        "projectUniqueName": "D:\\MyWork\\CBSD2\\01.Core\\CBSD.Core.ApplicationServices\\CBSD.Core.ApplicationServices.csproj",
         "projectName": "CBSD.Core.ApplicationServices",
-        "projectPath": "D:\\MyWork\\CBSD\\01.Core\\CBSD.Core.ApplicationServices\\CBSD.Core.ApplicationServices.csproj",
+        "projectPath": "D:\\MyWork\\CBSD2\\01.Core\\CBSD.Core.ApplicationServices\\CBSD.Core.ApplicationServices.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\MyWork\\CBSD\\01.Core\\CBSD.Core.ApplicationServices\\obj\\",
+        "outputPath": "D:\\MyWork\\CBSD2\\01.Core\\CBSD.Core.ApplicationServices\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -132,17 +160,19 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.zeero.ir/repository/zeero-nuget/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\MyWork\\CBSD\\00.Framework\\Framework.Domain\\CBSD.Framework.Domain.csproj": {
-                "projectPath": "D:\\MyWork\\CBSD\\00.Framework\\Framework.Domain\\CBSD.Framework.Domain.csproj"
+              "D:\\MyWork\\CBSD2\\00.Framework\\Framework.Domain\\CBSD.Framework.Domain.csproj": {
+                "projectPath": "D:\\MyWork\\CBSD2\\00.Framework\\Framework.Domain\\CBSD.Framework.Domain.csproj"
               },
-              "D:\\MyWork\\CBSD\\01.Core\\CBSD.SellerContext.Core.Domain\\CBSD.Seller.Core.Domain.csproj": {
-                "projectPath": "D:\\MyWork\\CBSD\\01.Core\\CBSD.SellerContext.Core.Domain\\CBSD.Seller.Core.Domain.csproj"
+              "D:\\MyWork\\CBSD2\\01.Core\\CBSD.SellerContext.Core.Domain\\CBSD.Seller.Core.Domain.csproj": {
+                "projectPath": "D:\\MyWork\\CBSD2\\01.Core\\CBSD.SellerContext.Core.Domain\\CBSD.Seller.Core.Domain.csproj"
               }
             }
           }
@@ -151,7 +181,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net7.0": {
@@ -172,21 +208,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\MyWork\\CBSD\\01.Core\\CBSD.SellerContext.Core.Domain\\CBSD.Seller.Core.Domain.csproj": {
+    "D:\\MyWork\\CBSD2\\01.Core\\CBSD.SellerContext.Core.Domain\\CBSD.Seller.Core.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyWork\\CBSD\\01.Core\\CBSD.SellerContext.Core.Domain\\CBSD.Seller.Core.Domain.csproj",
+        "projectUniqueName": "D:\\MyWork\\CBSD2\\01.Core\\CBSD.SellerContext.Core.Domain\\CBSD.Seller.Core.Domain.csproj",
         "projectName": "CBSD.Seller.Core.Domain",
-        "projectPath": "D:\\MyWork\\CBSD\\01.Core\\CBSD.SellerContext.Core.Domain\\CBSD.Seller.Core.Domain.csproj",
+        "projectPath": "D:\\MyWork\\CBSD2\\01.Core\\CBSD.SellerContext.Core.Domain\\CBSD.Seller.Core.Domain.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\MyWork\\CBSD\\01.Core\\CBSD.SellerContext.Core.Domain\\obj\\",
+        "outputPath": "D:\\MyWork\\CBSD2\\01.Core\\CBSD.SellerContext.Core.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -194,17 +234,19 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.zeero.ir/repository/zeero-nuget/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7",
             "projectReferences": {
-              "D:\\MyWork\\CBSD\\00.Framework\\Framework.Domain\\CBSD.Framework.Domain.csproj": {
-                "projectPath": "D:\\MyWork\\CBSD\\00.Framework\\Framework.Domain\\CBSD.Framework.Domain.csproj"
+              "D:\\MyWork\\CBSD2\\00.Framework\\Framework.Domain\\CBSD.Framework.Domain.csproj": {
+                "projectPath": "D:\\MyWork\\CBSD2\\00.Framework\\Framework.Domain\\CBSD.Framework.Domain.csproj"
               },
-              "D:\\MyWork\\CBSD\\00.Framework\\Framwork.Tools\\CBSD.Framwork.Tools.csproj": {
-                "projectPath": "D:\\MyWork\\CBSD\\00.Framework\\Framwork.Tools\\CBSD.Framwork.Tools.csproj"
+              "D:\\MyWork\\CBSD2\\00.Framework\\Framwork.Tools\\CBSD.Framwork.Tools.csproj": {
+                "projectPath": "D:\\MyWork\\CBSD2\\00.Framework\\Framwork.Tools\\CBSD.Framwork.Tools.csproj"
               }
             }
           }
@@ -213,7 +255,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net7.0": {
@@ -234,36 +282,42 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\MyWork\\CBSD\\xunitTest\\xunitTest.csproj": {
+    "D:\\MyWork\\CBSD2\\xunitTest\\xunitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyWork\\CBSD\\xunitTest\\xunitTest.csproj",
+        "projectUniqueName": "D:\\MyWork\\CBSD2\\xunitTest\\xunitTest.csproj",
         "projectName": "xunitTest",
-        "projectPath": "D:\\MyWork\\CBSD\\xunitTest\\xunitTest.csproj",
+        "projectPath": "D:\\MyWork\\CBSD2\\xunitTest\\xunitTest.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\MyWork\\CBSD\\xunitTest\\obj\\",
+        "outputPath": "D:\\MyWork\\CBSD2\\xunitTest\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.zeero.ir/repository/zeero-nuget/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\MyWork\\CBSD\\01.Core\\CBSD.Core.ApplicationServices\\CBSD.Core.ApplicationServices.csproj": {
-                "projectPath": "D:\\MyWork\\CBSD\\01.Core\\CBSD.Core.ApplicationServices\\CBSD.Core.ApplicationServices.csproj"
+              "D:\\MyWork\\CBSD2\\01.Core\\CBSD.Core.ApplicationServices\\CBSD.Core.ApplicationServices.csproj": {
+                "projectPath": "D:\\MyWork\\CBSD2\\01.Core\\CBSD.Core.ApplicationServices\\CBSD.Core.ApplicationServices.csproj"
               }
             }
           }
@@ -272,31 +326,37 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[17.3.2, )"
+              "version": "[18.0.1, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.2, )"
+              "version": "[6.0.4, )"
             },
             "xunit": {
               "target": "Package",
-              "version": "[2.4.2, )"
+              "version": "[2.9.3, )"
             },
             "xunit.runner.visualstudio": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.4.5, )"
+              "version": "[3.1.5, )"
             }
           },
           "imports": [
@@ -315,7 +375,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

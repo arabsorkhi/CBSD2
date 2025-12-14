@@ -7,8 +7,11 @@ using CBSD.Seller.Core.Domain.SellerAgg.Data;
 using CBSD.Seller.Core.Domain.UserProfileAgg.Data;
 using CBSD.Seller.Infra.Data.Sql.UserProfile;
 using EventStore.ClientAPI;
+using Framework.Domain.Events;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+using ProtoBuf.Meta;
+using ServiceBusMessaging;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -31,6 +34,9 @@ var esConnection = EventStoreConnection.Create(builder.Configuration["EventStore
 var store = new CBSDEventStore(esConnection);
 builder.Services.AddSingleton(esConnection);
 builder.Services.AddSingleton<IEventSource>(store);
+
+// Register event publishers
+builder.Services.AddTransient<IEventPublisher, AzureServiceBusEventPublisher>();
 
 
 //builder.Services.AddSingleton<ISellerRepository, InMemorySellerRepository>();
